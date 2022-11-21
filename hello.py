@@ -9,4 +9,11 @@ print('hello')
 
 a = 10
 b = 20
+c = "파이썬"
 print(a+b)
+print(type(c))
+
+num1 = int(input('input num1 : '))
+num2 = int(input('imput num2 : '))
+# f-string (pytho 3. x)
+print(f"{num1} + {num2} = {num1 + num2}");
